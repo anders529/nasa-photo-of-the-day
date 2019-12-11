@@ -2,7 +2,11 @@ import React, {useState, useEffect} from "react";
 import "./App.css";
 import axios from "axios";
 
-function App() {
+function App(props) {
+  const [picture, setPicture] = useState();
+  const [date, setDate] = useState();
+  const [title, setTitle] = useState();
+  
   return (
     <div className="App">
       <p>
