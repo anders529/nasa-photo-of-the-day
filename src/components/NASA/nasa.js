@@ -1,11 +1,11 @@
 import React from "react";
 
-function nasaPic() {
-  return (
-    <div className="">
 
-    </div>
+function NasaPic(props) {
+  return (
+
+    <img src= {props.picture} ></img>
   );
 }
 
-export default nasaPic;
+export default NasaPic;
