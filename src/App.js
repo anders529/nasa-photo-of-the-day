@@ -3,6 +3,7 @@ import "./App.css";
 import axios from "axios";
 import NasaPic from './components/NASA/nasa';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Cards from './components/styles/card.js';
 
 function App(props) {
   const [picture, setPicture] = useState();
@@ -25,10 +26,11 @@ function App(props) {
 
   return (
     <section>
-      <div>
-        Title: {title} Date: {date}
-      </div>
-      <NasaPic picture = {picture} />
+      <Cards
+      picture = {picture}
+      title = {title}
+      date = {date}
+      />
     </section>
   );
 }
