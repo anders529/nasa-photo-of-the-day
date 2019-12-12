@@ -2,6 +2,7 @@ import React, {useState, useEffect} from "react";
 import "./App.css";
 import axios from "axios";
 import NasaPic from './components/NASA/nasa';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App(props) {
   const [picture, setPicture] = useState();
