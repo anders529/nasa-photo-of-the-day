@@ -13,7 +13,7 @@ const Cards = (props) => {
         <CardBody>
           <CardTitle><h2>Title: {title}</h2></CardTitle>
           <CardText><h4>Date: {date}</h4></CardText>
-          <Button>Button</Button>
+          <Button outline color= "success">Button</Button>
         </CardBody>
       </Card>
     </div>
