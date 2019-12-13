@@ -12,7 +12,7 @@ const Cards = (props) => {
         <CardImg style={{width: "100%"}} top width="25%" src= {picture} alt="NASA image of the day" />
         <CardBody>
           <CardTitle><h2>Title: {title}</h2></CardTitle>
-          <CardText><h4>Date: {date}</h4></CardText>
+          <CardText>Date: {date}</CardText>
           <Button outline color= "success">Button</Button>
         </CardBody>
       </Card>
